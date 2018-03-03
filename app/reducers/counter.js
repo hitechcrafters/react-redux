@@ -1,6 +1,4 @@
-import { combineReducers } from 'redux'
-
-import { INCREASE_COUNTER, DECREASE_COUNTER } from "../actions/action";
+import { INCREASE_COUNTER, DECREASE_COUNTER } from "../actions/counterActions";
 
 const initialState = {
   counter: 0,
@@ -23,8 +21,4 @@ const counter = (state = initialState, action) => {
   }
 }
 
-const counterApp = combineReducers({
-  counter,
-});
-
-export default counterApp;
+export default counter;

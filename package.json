@@ -10,8 +10,10 @@
     "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.config.js"
   },
   "dependencies": {
+    "antd": "^3.2.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-materialize": "^2.0.7",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",

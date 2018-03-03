@@ -1,24 +1,13 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 
-import { increaseCounter, decreaseCounter } from '../actions/action';
-import App from '../components/app';
+import CounterContainer from './CounterContainer';
+import UserListContainer from './UserListContainer';
 
-
-const mapStateToProps = (state) => ({
-  counter: state.counter.counter,
-});
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onIncrement: () => dispatch(increaseCounter),
-    onDecrement: () => dispatch(decreaseCounter),
-  };
-};
-
-const AppContainer = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App);
+const AppContainer = () => (
+  <div>
+    <CounterContainer />
+    <UserListContainer />
+  </div>
+);
 
 export default AppContainer;

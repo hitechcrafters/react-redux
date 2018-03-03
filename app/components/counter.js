@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 import Button from './button';
 import Display from './display';
 
-const App = ({ counter, onIncrement, onDecrement }) => (
-  <div>
+const Counter = ({ counter, onIncrement, onDecrement }) => (
+  <div className="center">
     <Button text="+" onClick={onIncrement} />
     <Display value={counter} />
     <Button text="-" onClick={onDecrement} />
   </div>
 );
 
-export default App;
+export default Counter;
