@@ -1,5 +1,4 @@
-export const INCREASE_COUNTER = 'INCREASE_COUNTER';
-export const DECREASE_COUNTER = 'DECREASE_COUNTER';
+import { INCREASE_COUNTER, DECREASE_COUNTER } from './counterTypes';
 
 export const increaseCounter = {
   type: INCREASE_COUNTER,

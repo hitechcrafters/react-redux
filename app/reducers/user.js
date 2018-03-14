@@ -1,4 +1,4 @@
-import { FETCH_USERS, ADD_USER, DELETE_USER } from "../actions/userActions";
+import { FETCH_USERS, ADD_USER, DELETE_USER } from "../actions/userTypes";
 
 const initialState = {
   users: [
