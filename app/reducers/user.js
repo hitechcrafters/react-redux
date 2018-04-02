@@ -15,8 +15,6 @@ const initialState = {
 
 const user = (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_USERS:
-      return state;
     case ADD_USER:
       return {
         ...state,

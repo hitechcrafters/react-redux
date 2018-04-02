@@ -6,9 +6,8 @@
   "author": "DariuszPe <infodarq@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.config.js",
     "test": "jest",
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.config.js",
     "test:watch": "npm test -- --watch"
   },
   "dependencies": {
@@ -19,6 +18,7 @@
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
   },

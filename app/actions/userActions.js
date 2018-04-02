@@ -1,8 +1,4 @@
-import { FETCH_USERS, ADD_USER, DELETE_USER } from './userTypes';
-
-export const fetchUsers = {
-  type: FETCH_USERS,
-};
+import { ADD_USER, DELETE_USER } from './userTypes';
 
 export const addUser = (userName, userId) => ({
   type: ADD_USER,

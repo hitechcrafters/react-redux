@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className="center"
+>
+  <div>
+    <button
+      className="btn"
+      onClick={undefined}
+    >
+      +
+    </button>
+  </div>
+  <h1
+    className="margin-lft margin-rgt"
+  />
+  <div>
+    <button
+      className="btn"
+      onClick={undefined}
+    >
+      -
+    </button>
+  </div>
+</div>
+`;
