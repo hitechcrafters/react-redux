@@ -24,6 +24,20 @@
   align-items: center;
 }
 
+label {
+  display: inline-block;
+  width: 120px;
+}
+
+input.ok {
+  border: 2px solid green;
+}
+
+span {
+  margin-left: 20px;
+  color: red;
+}
+
 .margin-lft {
   margin-left: 50px;
 }
