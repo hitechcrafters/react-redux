@@ -6,7 +6,8 @@ import FormContainer from './FormContainer';
 
 class AppContainer extends Component {
   submit = values => {
-    console.log(values)
+    console.log(values);
+    this.props.history.push('/test');
   }
 
   render() {

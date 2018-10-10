@@ -11,7 +11,9 @@ import { connectedRouterRedirect } from 'redux-auth-wrapper/history4/redirect'
 
 import AppContainer from './app/containers/appContainer';
 import LogContainer from './app/containers/logContainer';
+import TestContainer from './app/containers/FormTestContainer';
 import reducer from './app/reducers/reducer';
+import FormTestContainer from './app/containers/FormTestContainer';
 
 const middleware = applyMiddleware(createLogger());
 const store = createStore(reducer, middleware);
@@ -29,6 +31,7 @@ ReactDOM.render(
       <Fragment>
         <Route exact path="/" component={LogContainer} />
         <Route exact path="/dashboard" component={userIsAuthenticated(AppContainer)} />
+        <Route exact path="/test" component={userIsAuthenticated(FormTestContainer)} />
       </Fragment>
     </Router>
   </Provider>,
