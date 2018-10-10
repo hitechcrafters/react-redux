@@ -15,6 +15,10 @@ describe('user reducer', () => {
           id: 1,
         },
       ],
+      credentials: {
+        login: 'darq',
+        pass: 'darq',
+      },
     };
 
     expect(reducer(undefined, testAction)).toEqual(expectedState);
@@ -41,6 +45,10 @@ describe('user reducer', () => {
           id: 2,
         },
       ],
+      credentials: {
+        login: 'darq',
+        pass: 'darq',
+      },
     };
 
     expect(reducer(undefined, testAction)).toEqual(expectedState);
@@ -58,6 +66,10 @@ describe('user reducer', () => {
           id: 0,
         },
       ],
+      credentials: {
+        login: 'darq',
+        pass: 'darq',
+      },
     };
 
     expect(reducer(undefined, testAction)).toEqual(expectedState);

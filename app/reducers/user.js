@@ -11,6 +11,10 @@ const initialState = {
       id: 1,
     },
   ],
+  credentials: {
+    login: 'darq',
+    pass: 'darq',
+  }
 };
 
 const user = (state = initialState, action) => {
