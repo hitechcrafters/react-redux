@@ -2,7 +2,7 @@
 
 exports[`Renders correctly 1`] = `
 <div
-  className="center"
+  className="center counter"
 >
   <div>
     <button

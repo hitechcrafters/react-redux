@@ -7,7 +7,7 @@ class UserList extends Component {
     let nextId = 0;
 
     return (
-      <div className="column margin-top50">
+      <div className="column margin-top50 list">
         <input
           className="input margin-bottom20"
           ref={node => {
